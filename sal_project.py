@@ -24,7 +24,7 @@ def load_image(image_path):
     image.thumbnail(MAX_SIZE)
     return image
 
-# ------------- загрузка картинки для страницы и модели ---------
+# ------------- загрузка картинки для страницы ---------
 
 # путь до картинки
 image_path = Path.cwd() / 'real_sal_img.png'
